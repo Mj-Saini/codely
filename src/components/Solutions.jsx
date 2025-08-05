@@ -7,7 +7,7 @@ import { solutionsList } from './common/Helper'
 const Solutions = () => {
 
   return (
-    <section className="py-20 bg-white solution_section">
+    <section className="py-20 max-sm:pb-5 bg-white solution_section">
       <div className="container custom_container mx-auto px-4">
         <div
           className="text-center mb-12"

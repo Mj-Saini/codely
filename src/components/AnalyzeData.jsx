@@ -4,7 +4,7 @@ import React from 'react'
 
 const AnalyzeData = ({heading,icon,mapData,bgImg}) => {
   return (
-    <section className="pt-0 pb-20 md:py-20 bg-[#f6f4ff] analyze_section">
+    <section className="pt-12 pb-20 md:py-20 bg-[#f6f4ff] analyze_section">
       <div className="custom_container container mx-auto px-4">
         <div className="flex flex-col lg:flex-row justify-between item s-center gap-12">
           {/* Left Text Content */}
