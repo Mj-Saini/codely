@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { faqData } from './common/Helper';
+import questionIcon from '../assets/image/png/question-icon.png'
 
 const Faqs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -32,7 +33,7 @@ const Faqs = () => {
                   }`}
                   onClick={() => toggle(index)}
                 >
-                  <span>{item.question}</span>
+                 <span className='flex gap-3 items-center'> <img src={questionIcon} alt={"question"} />{item.question}</span>
                   <span
                     className={`transition-transform transform text-2xl text-[#839bc0] ${
                       isOpen ? 'rotate-180' : 'rotate-0'
