@@ -84,7 +84,7 @@ export const navLinksList = [
     type: 'dropdown',
     subLinks: [
       { name: 'Blog List', href: '/blog-list' },
-      { name: 'Single Blog', href: '/blog-detail' },
+      { name: 'Single Blog', href: '/blog-details' },
     ],
   },
   {
@@ -94,7 +94,7 @@ export const navLinksList = [
       { name: 'Pricing', href: '/pricing' },
       { name: 'Sign In', href: '/sign-in' },
       { name: 'Sign Up', href: '/sign-up' },
-      { name: 'Error 404', href: '/error' },
+      { name: 'Error 404', href: '/page-not-found' },
       { name: 'FAQ', href: '/faq' },
     ],
   },

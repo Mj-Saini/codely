@@ -34,7 +34,7 @@ const Solutions = () => {
                 <img src={item.icon} alt={item.title} className="w-10 h-10" />
               <div className="flex flex-col mb-4">
               
-              <h3 className="text-base lg:text-xl font-semibold secondary_text mb-2 group-hover:underline">
+              <h3 className="text-lg lg:text-xl font-semibold secondary_text mb-2 group-hover:underline">
                 {item.title}
               </h3>
               <p className="text-sm md:text-[17px] text-[#3e3f66]">{item.desc}</p></div>

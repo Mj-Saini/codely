@@ -48,7 +48,7 @@ const ServiceList1 = () => {
                             </div>
                                 
                                 <div className="text-center">
-                                    <h3 className="text-base lg:text-xl font-semibold secondary_text">{service.title}</h3>
+                                    <h3 className="text-lg lg:text-xl font-semibold secondary_text">{service.title}</h3>
                                     <p className="text-sm md:text-[17px] text-[#3e3f66] py-3 lg:py-5">{service.desc}</p>
                                     <div className='flex justify-center lg:mt-3'>
                                         <CommonBtn btnName='Discover more' btnStyling='!bg-transparent primary_text !shadow' path='/services-details' />

@@ -54,7 +54,7 @@ const Collabrations = () => {
                                         </span>
                                     </div>
                                     <div>
-                                        <h3 className="text-base lg:text-xl font-semibold secondary_text">
+                                        <h3 className="text-lg lg:text-xl font-semibold secondary_text">
                                             Sync followers
                                         </h3>
                                         <p className="text-sm lg:text-[17px] text-[#3e3f66]">
@@ -69,7 +69,7 @@ const Collabrations = () => {
                                             <img src={GlobeIcon} alt="globe" />
                                         </span>
                                     </div>   <div>
-                                        <h3 className="text-base lg:text-xl font-semibold secondary_text">
+                                        <h3 className="text-lg lg:text-xl font-semibold secondary_text">
                                             Globally connected
                                         </h3>
                                         <p className="text-sm lg:text-[17px] text-[#3e3f66]">

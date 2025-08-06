@@ -34,7 +34,7 @@ const ContactUs = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h3 className="text-base lg:text-xl font-semibold secondary_text">{item.title}</h3>
+                                <h3 className="text-lg lg:text-xl font-semibold secondary_text">{item.title}</h3>
                                 <p className="text-sm md:text-[17px] text-[#3e3f66] mt-2 mb-3">{item.desc}</p>
                                 <Link
                                     to={

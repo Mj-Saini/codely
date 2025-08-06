@@ -55,7 +55,7 @@ const AnalyzeData = ({heading,icon,mapData,bgImg}) => {
                     </span>
                   </div>
                   <div>
-                    <h3 className="text-base lg:text-xl font-semibold secondary_text">
+                    <h3 className="text-lg lg:text-xl font-semibold secondary_text">
                       {item.title}
                     </h3>
                     <p className="text-sm md:text-[17px] text-[#3e3f66]">

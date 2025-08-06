@@ -65,7 +65,7 @@ const Testimonials = ({ hideImgCol, rightSecStyling,profileImg,slidesToShow ,dot
                                     <div className='flex items-center gap-2 mt-8'>
                                         <img className={`${profileImg}`} src={testiImg} alt="profile" />
                                         <div>
-                                            <h3 className="text-base lg:text-xl font-semibold secondary_text">{item.name}</h3>
+                                            <h3 className="text-lg lg:text-xl font-semibold secondary_text">{item.name}</h3>
                                             <span className="text-sm md:text-[15px] text-[#3e3f66]">{item.role}</span>
                                         </div>
                                     </div>

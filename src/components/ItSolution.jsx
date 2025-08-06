@@ -52,7 +52,7 @@ const ItSolution = ({ heading, subHeading, listing, cardData,cardStyling, listSt
                                         >
                                             <img src={card.img} alt="solution icon" />
                                             <div className=''>
-                                                <h3 className="text-base lg:text-xl font-semibold secondary_text">
+                                                <h3 className="text-lg lg:text-xl font-semibold secondary_text">
                                                    {card.heading}
                                                 </h3>
                                                 <p className="text-sm md:text-[17px] text-[#3e3f66] max-w-2xl mx-auto !leading-8 lg:pe-10">

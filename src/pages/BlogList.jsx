@@ -65,7 +65,7 @@ const BlogList = () => {
         <div className="lg:col-span-4 space-y-8">
           {/* Search */}
           <div className="bg-white lg:p-6 box_shadow rounded" data-aos="fade-up" data-aos-duration="1500">
-            <h3 className="text-base lg:text-xl font-semibold secondary_text">Search post</h3>
+            <h3 className="text-lg lg:text-xl font-semibold secondary_text">Search post</h3>
             <div className="flex border border-[#212529] rounded-xl overflow-hidden mt-4 items-center justify-between  px-4">
               <input
                 type="text"
@@ -81,7 +81,7 @@ const BlogList = () => {
 
           {/* Recent Posts */}
           <div className="bg-white lg:p-6 box_shadow rounded" data-aos="fade-up" data-aos-duration="1500">
-            <h3 className="text-base lg:text-xl font-semibold secondary_text mb-4">Recent Post</h3>
+            <h3 className="text-lg lg:text-xl font-semibold secondary_text mb-4">Recent Post</h3>
             <ul className="space-y-4">
               {recentPosts.map((item, idx) => (
                 <li key={idx} className="flex items-center gap-4 group">
@@ -99,7 +99,7 @@ const BlogList = () => {
 
           {/* Categories */}
           <div className="bg-white lg:p-6 shadow rounded" data-aos="fade-up" data-aos-duration="1500">
-            <h3 className="text-base lg:text-xl font-semibold secondary_text mb-4">Categories</h3>
+            <h3 className="text-lg lg:text-xl font-semibold secondary_text mb-4">Categories</h3>
             <ul className="space-y-3">
               {categories.map((cat, idx) => (
                 <li key={idx} className="flex gap-2 text-sm md:text-[17px] font-semibold items-center">
@@ -113,7 +113,7 @@ const BlogList = () => {
 
           {/* Tags */}
           <div className="bg-white lg:p-6 shadow rounded" data-aos="fade-up" data-aos-duration="1500">
-            <h3 className="text-base lg:text-xl font-semibold secondary_text mb-4">Tags</h3>
+            <h3 className="text-lg lg:text-xl font-semibold secondary_text mb-4">Tags</h3>
             <div className="flex flex-wrap gap-2">
               {tags.map((tag, idx) => (
                 <span

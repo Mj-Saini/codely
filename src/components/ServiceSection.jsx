@@ -28,7 +28,7 @@ const ServiceSection = ({ heading, subheading, mapData,cardStyling,listStyling,l
                                             <span><span className="flex items-center justify-center w-5 h-5 rounded-full secondary_bg mt-1 text-white">
                                                 &#10003;
                                             </span> </span>   <div>
-                                                <h3 className="text-base lg:text-xl font-semibold secondary_text">{item.heading}</h3>
+                                                <h3 className="text-lg lg:text-xl font-semibold secondary_text">{item.heading}</h3>
                                                 <p className="text-sm md:text-[17px] text-[#3e3f66] mt-3 lg:pe-20">
                                                     {item.desc}
                                                 </p>

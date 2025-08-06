@@ -40,7 +40,7 @@ const AdvancedFeatures = () => {
                 <img src={feature.icon} alt={feature.title} className="w-[60px]" />
               </div>
               <div>
-                <h3 className="text-base lg:text-xl font-semibold secondary_text">{feature.title}</h3>
+                <h3 className="text-lg lg:text-xl font-semibold secondary_text">{feature.title}</h3>
                 <p className="text-sm md:text-[17px] text-[#3e3f66]">{feature.desc}</p>
               </div>
             </div>

@@ -41,7 +41,7 @@ const OurTeam = () => {
 
                             </div>
                             <div className="text-center pb-6 pt-3 sm:py-6 px-4 bg-transparent">
-                                <h3 className="text-base lg:text-xl font-semibold secondary_text group-hover:text-white">{member.name}</h3>
+                                <h3 className="text-lg lg:text-xl font-semibold secondary_text group-hover:text-white">{member.name}</h3>
                                 <span className="text-sm md:text-[15px] text-[#3e3f66] group-hover:text-white">{member.role}</span>
                             </div>
                         </div>
