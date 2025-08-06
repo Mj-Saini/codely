@@ -63,7 +63,7 @@ const Header = () => {
                         flex items-center justify-between w-full cursor-pointer 
                         text-[#3e3f66] lg:text-white dropdown_tabs 
                         lg:ps-3 py-2 rounded-t-2xl transition duration-300 
-                        ${mobileDropdownOpen === index ? 'bg-white text-tertiary' : ''}
+                        ${mobileDropdownOpen === index ? 'max-lg:bg-white max-lg:tertiary_text' : ''}
                         group-hover:text-[#DB2777] group-hover:bg-white
                       `}
                     >
